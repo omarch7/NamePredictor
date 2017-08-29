@@ -45,15 +45,15 @@ python NamePredictor.py [model] [input] [output]
 ```
 Example
 ```shell
-python NamePredictor.py models/mode.h5 input.tsv output.tsv
+python NamePredictor.py models/model.h5 input.tsv output.tsv
 ```
 To add verbosity
 ```shell
-python NamePredictor.py models/mode.h5 input.tsv output.tsv --verbosity
+python NamePredictor.py models/model.h5 input.tsv output.tsv --verbosity
 ```
 To add probabilities to the output
 ```shell
-python NamePredictor.py models/mode.h5 input.tsv output.tsv --probabilities
+python NamePredictor.py models/model.h5 input.tsv output.tsv --probabilities
 ```
 ---
 
