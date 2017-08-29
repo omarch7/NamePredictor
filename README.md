@@ -3,7 +3,7 @@
 A small LSTM Neural Network to predict if a string is a name or not.
 
 Dataset built from DBpedia and combinations of First Names and Last Names
-***
+
 ### Prerequisites
 
 * Python 3.6
@@ -19,17 +19,17 @@ Dataset built from DBpedia and combinations of First Names and Last Names
 \*Only if wants to rerun Jupyter Notebooks
 
 Miniconda Recommended to install the packages
-***
+
 ### Data Preprocessing
 
 The details about how to extract the data to build the dataset can be found in the file [Preprocessing.ipynb](https://github.com/omarch7/NamePredictor/blob/master/Preprocessing.ipynb) or the already processed dataset can downloaded from [data/full_names.tar.gz](https://github.com/omarch7/NamePredictor/raw/master/data/full_names.tar.gz) that contains 6 million samples.
-***
+
 ### Training
 
 Training can be found in [Training.ipynb](https://github.com/omarch7/NamePredictor/blob/master/Training.ipynb), the whole dataset took almost 3 hours on a Google Compute Engine instance with GPU K80 Tesla, for convenience the already trained model can be found in [models/](https://github.com/omarch7/NamePredictor/tree/master/models).
 
 The model achieved 96% of accuracy.
-***
+
 ### Prediction
 
 #### Jupyter Notebooks
@@ -55,6 +55,7 @@ To add probabilities to the output
 ```shell
 python NamePredictor.py models/model.h5 input.tsv output.tsv --probabilities
 ```
+
 ---
 
 Developed by Omar Contreras [omarch7@gmail.com](mailto:omarch7@gmail.com)
