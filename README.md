@@ -38,7 +38,7 @@ The prediction can be done using [Predicting.ipynb](https://github.com/omarch7/N
 
 #### Command Line
 
-To predict if a strings contain a person name can be done using the command line, the program takes as input a tab separated file *.tsv* and generates an output with the same format but with the correct label, optionally probabilities can be added as well.
+To predict if a strings contain a person name can be done using the command line, the program takes as input a tab separated file [input.tsv](https://github.com/omarch7/NamePredictor/blob/master/input.tsv) and generates an output with the same format but with the correct label, optionally probabilities can be added as well.
 
 ```shell
 python NamePredictor.py [model] [input] [output]
